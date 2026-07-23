@@ -1,0 +1,26 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Node / frontend output
+node_modules/
+dist/
+.angular/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local environment files
+.env
+.env.*
+!.env.example
