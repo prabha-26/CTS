@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 import { CourseService } from './course.service';
+import { Course } from './course.model';
 
 @Component({
   selector: 'app-course-list',
@@ -23,7 +24,9 @@ import { CourseService } from './course.service';
   `]
 })
 export class CourseListComponent {
-  courses = this.courseService.getCourses();
+  courses: Course[];
 
-  constructor(private readonly courseService: CourseService) {}
+  constructor(private readonly courseService: CourseService) {
+    this.courses = this.courseService.getCourses();
+  }
 }
