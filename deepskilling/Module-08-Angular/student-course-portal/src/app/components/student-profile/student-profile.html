@@ -1,0 +1,24 @@
+<h2>Student Profile</h2>
+
+<p><b>Name:</b> {{ studentName | uppercase }}</p>
+
+<p><b>Course:</b> {{ course | titlecase }}</p>
+
+<p><b>College:</b> {{ college | lowercase }}</p>
+
+<p><b>Course Fee:</b> {{ fees | currency:'INR' }}</p>
+
+<p><b>Joining Date:</b> {{ joiningDate | date:'fullDate' }}</p>
+
+<p><b>Attendance:</b> {{ attendance | percent }}</p>
+
+<p><b>CGPA:</b> {{ cgpa | number:'1.2-2' }}</p>
+<hr>
+
+<h3>Academic Details</h3>
+
+<ul>
+  <li>Attendance: {{ attendance | percent }}</li>
+  <li>CGPA: {{ cgpa | number:'1.2-2' }}</li>
+  <li>Course Fee: {{ fees | currency:'INR' }}</li>
+</ul>

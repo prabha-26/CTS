@@ -1,0 +1,11 @@
+<h2>Available Courses</h2>
+
+<p>Total Courses: {{ courses.length }}</p>
+
+<pre>{{ courses | json }}</pre>
+
+<ul>
+  <li *ngFor="let course of courses">
+    {{ course.name }} - {{ course.credits }}
+  </li>
+</ul>

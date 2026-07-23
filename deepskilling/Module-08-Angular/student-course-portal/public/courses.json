@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Angular",
+    "available": true,
+    "credits": 3
+  },
+  {
+    "name": "ASP.NET Core",
+    "available": true,
+    "credits": 4
+  },
+  {
+    "name": "C#",
+    "available": false,
+    "credits": 2
+  },
+  {
+    "name": "SQL Server",
+    "available": true,
+    "credits": 1
+  }
+]

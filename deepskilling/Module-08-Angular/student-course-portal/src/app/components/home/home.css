@@ -1,0 +1,15 @@
+input,
+select {
+    width: 250px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 8px 15px;
+}
+
+div {
+    color: red;
+    font-size: 14px;
+}
