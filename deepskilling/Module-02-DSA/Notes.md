@@ -1,10 +1,6 @@
 # Module 02 - Data Structures and Algorithms
 
-Reference material:
-
-- `ReferenceMaterials/Algorithms_Data Structures.docx`
-
-Mandatory checklist from the reference tracker:
+Coverage checklist:
 
 - Exercise 2: E-commerce Platform Search Function - completed in `Exercise2.cs`.
 - Exercise 7: Financial Forecasting - completed in `Exercise7.cs`.

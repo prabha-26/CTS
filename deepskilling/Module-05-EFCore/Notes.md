@@ -1,9 +1,5 @@
 # Module 05 - Entity Framework Core
 
-Reference material:
-
-- `ReferenceMaterials/EF Core 8.0 HOL.pdf`
-
 Hands-on implemented in `RetailInventory`.
 
 - Lab 1: Models `Category` and `Product` represent a retail inventory domain.
