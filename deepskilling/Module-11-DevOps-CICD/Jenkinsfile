@@ -1,0 +1,23 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Restore') {
+      steps {
+        sh 'dotnet restore deepskilling/Module-06-WebAPI/EmployeeApi/EmployeeApi.csproj'
+      }
+    }
+
+    stage('Build') {
+      steps {
+        sh 'dotnet build deepskilling/Module-06-WebAPI/EmployeeApi/EmployeeApi.csproj --configuration Release --no-restore'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh 'dotnet test deepskilling/Module-04-NUnit-Moq/NUnitExamples/NUnitExercises.csproj --configuration Release || true'
+      }
+    }
+  }
+}

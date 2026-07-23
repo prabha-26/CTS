@@ -1,0 +1,24 @@
+name: dotnet-ci
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore Web API
+        run: dotnet restore deepskilling/Module-06-WebAPI/EmployeeApi/EmployeeApi.csproj
+      - name: Build Web API
+        run: dotnet build deepskilling/Module-06-WebAPI/EmployeeApi/EmployeeApi.csproj --configuration Release --no-restore
+      - name: Restore EF Core sample
+        run: dotnet restore deepskilling/Module-05-EFCore/RetailInventory/RetailInventory.csproj
+      - name: Build EF Core sample
+        run: dotnet build deepskilling/Module-05-EFCore/RetailInventory/RetailInventory.csproj --configuration Release --no-restore
