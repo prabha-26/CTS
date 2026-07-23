@@ -1,5 +1,13 @@
 # Module 07 - Microservices
 
+Reference material:
+
+- `ReferenceMaterials/1. Microservices - JWT.pdf`
+
+Mandatory checklist from the reference tracker:
+
+- Question 1: Implement JWT Authentication in ASP.NET Core Web API - completed in `JwtAuthMicroservice`.
+
 Hands-on implemented in `JwtAuthMicroservice`.
 
 ## Objective

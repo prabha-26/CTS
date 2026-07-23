@@ -1,5 +1,18 @@
 # Module 06 - ASP.NET Core Web API
 
+Reference materials:
+
+- `ReferenceMaterials/1. WebApi_Handson.docx`
+- `ReferenceMaterials/2. WebApi_Handson.docx`
+- `ReferenceMaterials/3. WebApi_Handson.docx`
+- `ReferenceMaterials/4. WebApi_Handson.docx`
+- `ReferenceMaterials/5. WebApi_Handson.docx`
+- `ReferenceMaterials/6. WebApi_Handson.docx`
+
+Mandatory checklist from the reference tracker:
+
+- Web API handouts 1-6 are represented in `EmployeeApi` through controllers, CRUD endpoints, Swagger/OpenAPI, filters, CORS, and JWT authorization.
+
 Hands-on implemented in `EmployeeApi`.
 
 ## Objective

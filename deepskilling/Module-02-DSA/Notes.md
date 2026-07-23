@@ -1,5 +1,14 @@
 # Module 02 - Data Structures and Algorithms
 
+Reference material:
+
+- `ReferenceMaterials/Algorithms_Data Structures.docx`
+
+Mandatory checklist from the reference tracker:
+
+- Exercise 2: E-commerce Platform Search Function - completed in `Exercise2.cs`.
+- Exercise 7: Financial Forecasting - completed in `Exercise7.cs`.
+
 Completed C# exercises:
 
 - Exercise 1: Inventory management with add, update, delete, and lookup operations.
@@ -9,5 +18,3 @@ Completed C# exercises:
 - Exercise 5: Task management with linked-list style operations.
 - Exercise 6: Library search with basic lookup logic.
 - Exercise 7: Financial forecasting.
-
-The reference marks Exercise 2 and Exercise 7 as mandatory; both are implemented.

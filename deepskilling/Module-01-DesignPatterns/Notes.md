@@ -1,5 +1,14 @@
 # Module 01 - Design Patterns and Principles
 
+Reference material:
+
+- `ReferenceMaterials/Design Patterns and Principles.docx`
+
+Mandatory checklist from the reference tracker:
+
+- Exercise 1: Implementing the Singleton Pattern - completed in `Exercise1.cs`.
+- Exercise 2: Implementing the Factory Method Pattern - completed in `Exercise2.cs`.
+
 Completed C# exercises:
 
 - Exercise 1: Singleton pattern with a shared logger instance.
