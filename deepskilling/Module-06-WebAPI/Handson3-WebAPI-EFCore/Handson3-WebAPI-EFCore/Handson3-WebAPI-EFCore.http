@@ -1,0 +1,6 @@
+@Handson3_WebAPI_EFCore_HostAddress = http://localhost:5207
+
+GET {{Handson3_WebAPI_EFCore_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

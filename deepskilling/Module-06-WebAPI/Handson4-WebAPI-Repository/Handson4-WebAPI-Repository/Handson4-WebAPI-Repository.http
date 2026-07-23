@@ -1,0 +1,6 @@
+@Handson4_WebAPI_Repository_HostAddress = http://localhost:5293
+
+GET {{Handson4_WebAPI_Repository_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+@host = https://localhost:7053
+
+### Login
+POST {{host}}/api/Auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+###
+
+### Get Employees
+GET {{host}}/api/Employee
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsIlVzZXJJZCI6IjEiLCJleHAiOjE3ODM3MDIyMjYsImlzcyI6Im15U3lzdGVtIiwiYXVkIjoibXlVc2VycyJ9.KMQU3IeAoXinZYDmV6B6r-dnyK4xJG82a9qtHAu7O38
+Accept: application/json
