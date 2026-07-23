@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LeapYearCalculatorLib.csproj" />
+  <Project Path="LeapYearCalculatorLib.Tests/LeapYearCalculatorLib.Tests.csproj" />
+</Solution>

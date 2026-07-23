@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SeasonsLib.csproj" />
+  <Project Path="SeasonsLib.Tests/SeasonsLib.Tests.csproj" />
+</Solution>
